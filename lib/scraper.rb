@@ -46,4 +46,8 @@ class Scraper
     student_hash
   end
 
+  def self.scrape_weather(url)
+
+  end
+
 end
