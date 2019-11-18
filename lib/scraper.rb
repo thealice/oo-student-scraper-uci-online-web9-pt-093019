@@ -46,8 +46,9 @@ class Scraper
     student_hash
   end
 
-  def self.scrape_weather(url)
-
+  def self.scrape_last_fm_users_chart(username = thealice)
+    thealice_chart = Nokogiri::HTML(open(url))
+    
   end
 
 end
