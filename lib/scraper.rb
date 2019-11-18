@@ -48,7 +48,7 @@ class Scraper
 
   def self.scrape_last_fm_users_chart(username = thealice)
     thealice_chart = Nokogiri::HTML(open(url))
-    
+
   end
 
 end
