@@ -47,9 +47,8 @@ class Scraper
   end
 
   def self.scrape_last_fm_users_chart(username = thealice)
-    binding.pry
     user_chart = Nokogiri::HTML(open("https://www.last.fm/user/#{username}/library/artists?date_preset=LAST_365_DAYS"))
-
+    binding.pry
 
   end
 
